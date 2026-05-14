@@ -1,0 +1,27 @@
+{
+  "model_name": "RandomForest",
+  "macro_f1": 0.928639885898628,
+  "accuracy": 0.9980853096976238,
+  "n_features": 70,
+  "classes": [
+    "BENIGN",
+    "Botnet",
+    "BruteForce",
+    "DDoS",
+    "DoS",
+    "Infiltration",
+    "PortScan",
+    "WebAttack"
+  ],
+  "train_time_sec": 797.0055703999824,
+  "all_candidates": {
+    "RandomForest": {
+      "macro_f1": 0.928639885898628,
+      "accuracy": 0.9980853096976238
+    },
+    "LogisticBaseline": {
+      "macro_f1": 0.51020508771016,
+      "accuracy": 0.8454435139866007
+    }
+  }
+}
