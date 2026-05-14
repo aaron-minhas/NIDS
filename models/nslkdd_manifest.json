@@ -1,0 +1,25 @@
+{
+  "model_name": "LogisticBaseline",
+  "macro_f1": 0.6084115121856112,
+  "accuracy": 0.7940471965933286,
+  "n_features": 41,
+  "classes": [
+    "DoS",
+    "Normal",
+    "Probe",
+    "R2L",
+    "U2R"
+  ],
+  "train_time_sec": 12.65823390003061,
+  "dataset": "NSL-KDD",
+  "all_candidates": {
+    "RandomForest": {
+      "macro_f1": 0.4818888301062875,
+      "accuracy": 0.7445440028388929
+    },
+    "LogisticBaseline": {
+      "macro_f1": 0.6084115121856112,
+      "accuracy": 0.7940471965933286
+    }
+  }
+}
